@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  background-image: url("");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0;
+     padding: 0;
+     text-align: center;
+}
+
+.padding-top {
+  padding-top: 10px;
+
+}
+
+#gmail {
+   display: inline-block;
+   margin-left: 20px;
+   float: right;
+}
+
+#kuvahaku {
+   display: inline-block;
+   margin-left: 20px;
+   float: right;
+}
+
+#logo {
+align-items: center;
+padding-top: 15%;
+padding-bottom: 30px
+
+}
+
+.search {
+
+  height: 35px;
+  border-style: solid 0,2px;
+  min-width: 484px;
+  box-shadow: 4px 4px 12px hsl(1, 5%, 85%);
+
+  text-align: left;
+
+  font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+
+}
