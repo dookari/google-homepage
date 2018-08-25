@@ -1,3 +1,30 @@
+html body div span applet object iframe
+h1 h2 h3 h4 h5 h6 p blockquote pre
+a abbr acronym address big cite code
+del dfn em img ins kbd q s samp
+small strike strong sub sup tt var
+b u i center
+dl dt dd ol ul li
+fieldset form label legend
+table caption tbody tfoot thead tr th td
+article aside canvas details embed
+figure figcaption footer header hgroup
+menu nav output ruby section summary
+time mark audio video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
   background-color: white;
   background-image: url("");
@@ -6,29 +33,104 @@ body {
   margin: 0;
      padding: 0;
      text-align: center;
+  font-family:"arial",sans-serif;
+     color: #777;
+     height: 100vh;
+
+
 }
+
+
 
 .padding-top {
-  padding-top: 10px;
+  padding-top: 15px;
 
 }
 
-#gmail {
-   display: inline-block;
-   margin-left: 20px;
-   float: right;
+ul.corner li{
+left: 300px;
+    display: inline;
+letter-spacing: 0px;
+height: 10px;
+font-size: 13px;
+  font-family:"arial" sans-serif;
 }
 
-#kuvahaku {
-   display: inline-block;
-   margin-left: 20px;
-   float: right;
+
+
+li#four{
+    float: left;
+    padding: 8px 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    font-style: normal;
+    text-decoration: none;
+      font-family:"arial",sans-serif;
+
+
+}
+
+li a {
+  text-decoration: none;
+    font-family:"arial",sans-serif; color: black;
+  font-weight: 400;
+
+
+}
+
+li img {
+  margin-right: 8px;
+    position: relative;
+    top: -2px;
+
+
+
+}
+
+li img:hover {
+  color: blue;
+
+}
+
+ul.corner {
+    list-style-type: none;
+    margin: 0px;
+    display: inline-block;
+    height: 10px;
+    padding-left: 75%;
+  font-family:"arial" sans-serif;
 }
 
 #logo {
 align-items: center;
-padding-top: 15%;
-padding-bottom: 30px
+padding-top: 14%;
+padding-bottom: 25px
+
+}
+
+li.login {
+  float: left;
+  list-style-type: none;
+  background-color: rgba(0, 80, 290,0.75);
+  border-radius: 2px;
+  font-style:normal;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 8px;
+
+
+}
+
+li.login a {
+color:white;
+padding: 10px 10px 10px 10px;
+font-weight: bold;
+
+}
+
+li.login:hover {
+box-shadow: 1px 1px 1px hsl(1, 5%, 85%);
 
 }
 
@@ -36,13 +138,198 @@ padding-bottom: 30px
 
   height: 35px;
   border-style: solid 0,2px;
-  min-width: 484px;
+  min-width: 558px;
   box-shadow: 4px 4px 12px hsl(1, 5%, 85%);
 
   text-align: left;
 
   font: 16px arial,sans-serif;
     line-height: 34px;
-    height: 34px !important;
+    height: 34px;
 
+}
+
+
+
+
+li.formbelow {
+    align-items: center;
+    padding: 8px 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: blue;
+    font-style: normal;
+    text-decoration: none;
+  font-family:"arial",sans-serif;
+
+}
+
+ul.formbelow {
+  align-items: center;
+padding-left: 41%;
+text-align: justify;
+padding-top: 22px;
+}
+
+ul li#haku {
+  border-radius: 1px;
+  margin-top: 12px;
+  display: inline-block;
+padding-left: 18px;
+padding-right: 0px;
+padding-top: 11px;
+margin-bottom: 3px;
+  height: 26px;
+  font-size: 12px;
+  font-family:"arial",sans-serif;
+  background-color: rgba(230, 229, 229,0.6);
+  margin-right: 4px;
+  font-weight: 600;
+  width: 92px;
+  text-align: justify;
+
+}
+ul li.haku2#haku {
+  width: 112px;
+  padding-right: 5px;
+}
+
+.versions {
+  font-family:"arial",sans-serif;
+  color: black;
+  font-size: 13px;
+  margin-top: 27px;
+}
+
+.versions a {
+  text-decoration: none;
+}
+
+.suomi {
+width: 100%;
+margin-top: 40px;
+border-style: solid;
+border-width: thin;
+border-color: hsl(0, 1%, 90%);
+height:30px;
+padding-left: 24px;
+padding-top: 11px;
+text-align: left;
+font-weight: 200;
+font-size: 16px;
+font: "arial" "sans-serif";
+background-color: hsl(0, 1%, 94%);
+}
+
+.foota .vasen {
+margin-top: 40px;
+text-align: left;
+border-color: hsl(0, 1%, 90%);
+height:22px;
+padding-left: 24px;
+padding-right: 50px;
+padding-top: 11px;
+font-weight: 200;
+font-size: 14px;
+font: "arial" "sans-serif";
+background-color: hsl(0, 1%, 94%);
+list-style-type: none;
+margin: 0;
+display: inline;
+}
+
+.foota {
+  width: 100%;
+  margin-top: 40px;
+  border-style: solid;
+  border-width: thin;
+  border-color: hsl(0, 1%, 90%);
+  height:30px;
+  padding-left: 24px;
+  padding-top: 8px;
+  font-weight: 200;
+  font-size: 16px;
+  font: "arial" "sans-serif";
+  background-color: hsl(0, 1%, 94%);
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 0px;
+  display: inline-block;
+  border-bottom: none;
+
+}
+
+.foota .oikea {
+
+  margin-top: 40px;
+
+  border-color: hsl(0, 1%, 90%);
+  height:22px;
+  padding-left: 24px;
+  padding-top: 11px;
+  font-weight: 200;
+  font-size: 14px;
+  font: "arial" "sans-serif";
+  background-color: hsl(0, 1%, 94%);
+  list-style-type: none;
+  margin: 0;
+  display: inline;
+}
+#mai {
+text-align: left;
+padding-left: 0px;
+padding-right: 30px;
+float: left;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+#yri {
+
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 30px;
+  float: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#tie {
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#suo {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 15px;
+  float: right;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ase {
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: right;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+#käy {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 0px;
+  float: right;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+ul.foota {
+border-bottom: none;
 }
